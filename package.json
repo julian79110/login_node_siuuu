@@ -1,0 +1,32 @@
+{
+  "name": "devcamp-2687351",
+  "version": "1.0.0",
+  "description": "Proyecto para la clase de js backend, Aprendices Julian, Dylan CGMLTI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "data:connect": "node config/db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylan-Diaz/devcamp-2687351.git"
+  },
+  "author": "Dylan Diaz - Julian Tique",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dylan-Diaz/devcamp-2687351/issues"
+  },
+  "homepage": "https://github.com/Dylan-Diaz/devcamp-2687351#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
